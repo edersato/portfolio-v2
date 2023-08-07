@@ -1,12 +1,37 @@
 <template>
   <div>
-    <h1>AAAAA</h1>
+    <header>
+      <HeadNav />
+    </header>
+    <main>
+      <PresentationVue />
+      <AboutVue />
+      <KnowHow />
+      <ProjectsVue />
+      <ContactVue />
+    </main>
+    <footer>
+      <FooNav />
+    </footer>
   </div>
 </template>
 
 <script>
+import HeadNav from './sections/HeadNav.vue'
+import PresentationVue from './sections/PresentationVue.vue'
+import AboutVue from './sections/AboutVue.vue'
+import KnowHow from './sections/KnowHow.vue'
+import ProjectsVue from './sections/ProjectsVue.vue'
+import ContactVue from './sections/ContactVue.vue'
+import FooNav from './sections/FooNav.vue'
+
+
+
 export default {
   name: 'HomePage',
+  components: {
+    HeadNav ,PresentationVue, AboutVue, KnowHow, ProjectsVue, ContactVue, FooNav
+  }
 }
 </script>
 
