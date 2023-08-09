@@ -60,6 +60,15 @@ section {
 
   h3 {
     color: white;
+    white-space: nowrap;
+    border-right: .15em solid #4591c4;
+    animation: 2s typing steps(20, end) alternate infinite;
+    overflow: hidden;
+
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 105% }
+    }
     
     @media (min-width: 320px) and (max-width: 768px) {
       text-align: center;
