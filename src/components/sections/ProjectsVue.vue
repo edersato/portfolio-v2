@@ -59,13 +59,27 @@ export default {};
     align-items: center;
     padding: 3rem;
 
+      @media (min-width: 320px) and (max-width: 920px) {
+        flex-direction: column;
+        padding: 0;
+      }
+
     img {
-      width: 30%;
+      width: 50%;
       margin: 0 auto;
+
+      @media (min-width: 320px) and (max-width: 920px) {
+        width: 70%;      
+      }
     }
 
     .explanation {
       padding: 2rem;
+
+      h6 {
+        color: white;
+        font-weight: 400;
+      }
     }
   }
 }
