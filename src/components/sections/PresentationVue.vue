@@ -7,17 +7,21 @@
       <h1>Eder Sato</h1>
       <h3>Desenvolvedor Front End</h3>
       <div class="icons">
-        <a href="https://www.linkedin.com/in/eder-da-rosa-sato/">
+        <a href="https://github.com/edersato/">
           <font-awesome-icon icon="fa-brands fa-github" />
         </a>
 
-        <a href="https://github.com/edersato/">
+        <a href="https://www.linkedin.com/in/eder-da-rosa-sato/">
           <font-awesome-icon icon="fa-brands fa-linkedin" />
         </a>
 
         <a href="mailto:edersato@gmail.com">
           <font-awesome-icon icon="fa-solid fa-envelope" />
         </a>
+
+          <a href="https://dev.to/edersato">
+            <font-awesome-icon icon="fa-solid fa-laptop-code" />
+          </a>
       </div>
       <button href="#about" type="button" class="btn btn-lg mt-4">Saiba Mais</button>
     </div>
