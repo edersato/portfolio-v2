@@ -14,7 +14,7 @@
             Aplicação de clima construida em Vue consumindo a API da
             OpenWeatherAPI
           </h6>
-          <button class="btn btn-secondary">Detalhes</button>
+          <a class="btn btnDetails" href="https://vue-weather-ten.vercel.app/" target="_blank">{{details}}</a>
         </div>
       </div>
 
@@ -25,7 +25,7 @@
           <h6 class="mb-5">
             Pokedex completa construida em Vue consumindo a API da PokeAPI
           </h6>
-          <button class="btn btn-secondary">Detalhes</button>
+          <a class="btn btnDetails" href="https://pokevuedex.vercel.app/" target="_blank">{{details}}</a>
         </div>
       </div>
 
@@ -36,7 +36,7 @@
           <h6 class="mb-5">
             Jogo Endless Runner construido durante a Imersão GameDev da Alura
           </h6>
-          <button class="btn btn-secondary">Detalhes</button>
+          <a class="btn btnDetails" href="https://editor.p5js.org/Eder_Sato/full/SYVpVFLIz" target="_blank">{{details}}</a>
         </div>
       </div>
     </section>
@@ -44,7 +44,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      details: "Detalhes",
+    }
+  }
+};
 </script>
 
 <style lang="scss" scoped>
@@ -55,7 +61,7 @@ export default {};
 
   .projectDiv {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     padding: 3rem;
 
@@ -65,11 +71,20 @@ export default {};
       }
 
     img {
-      width: 50%;
-      margin: 0 auto;
+      width: 30%;
 
       @media (min-width: 320px) and (max-width: 920px) {
-        width: 70%;      
+        width: 50%;      
+      }
+    }
+
+    .btnDetails {
+      background-color: #5ebcfa;
+      transition: .8s ease-in;
+
+      &:hover {
+        transition: .8s ease-out;
+        background-color: white;
       }
     }
 

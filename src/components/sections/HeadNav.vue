@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg bg-transparent">
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#presentation">Eder da Rosa Sato</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-collapse" aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation">

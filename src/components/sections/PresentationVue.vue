@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="presentation">
     <img src="../../assets/profilePhoto.jpg" alt="Eder">
     
     <div>
@@ -7,19 +7,19 @@
       <h1>Eder Sato</h1>
       <h3>Desenvolvedor Front End</h3>
       <div class="icons">
-        <a href="https://github.com/edersato/">
+        <a target="_blank" href="https://github.com/edersato/">
           <font-awesome-icon icon="fa-brands fa-github" />
         </a>
 
-        <a href="https://www.linkedin.com/in/eder-da-rosa-sato/">
+        <a target="_blank" href="https://www.linkedin.com/in/eder-da-rosa-sato/">
           <font-awesome-icon icon="fa-brands fa-linkedin" />
         </a>
 
-        <a href="mailto:edersato@gmail.com">
+        <a target="_blank" href="mailto:edersato@gmail.com">
           <font-awesome-icon icon="fa-solid fa-envelope" />
         </a>
 
-          <a href="https://dev.to/edersato">
+          <a target="_blank" href="https://dev.to/edersato">
             <font-awesome-icon icon="fa-solid fa-laptop-code" />
           </a>
       </div>
@@ -59,6 +59,7 @@ section {
 
     @media (min-width: 320px) and (max-width: 768px) {
       text-align: center;
+      font-size: 3em;
     }
   }
 
@@ -71,10 +72,16 @@ section {
 
     @keyframes typing {
       from { width: 0 }
-      to { width: 105% }
+      to { width: 95% }
+    }
+
+    @media (min-width: 320px) and (max-width: 375px) {
+      text-align: center;
+      padding-left: 1em;
+      border-right: none;
     }
     
-    @media (min-width: 320px) and (max-width: 768px) {
+    @media (min-width: 376px) and (max-width: 768px) {
       text-align: center;
     }
   }
@@ -98,6 +105,10 @@ section {
       color: white;
       transition: 1s;
     }
+
+    @media (min-width: 320px) and (max-width: 768px) {
+      width: 70%;
+    }
   }
 }
 
@@ -118,6 +129,10 @@ section {
     &:hover {
       color: white;
       transition: 1s;
+    }
+
+    @media (min-width: 320px) and (max-width: 768px) {
+      padding: .8em;
     }
   }
 }
