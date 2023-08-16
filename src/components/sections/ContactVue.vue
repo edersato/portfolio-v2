@@ -34,8 +34,13 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
+
 #contact {
   padding: 3em;
+
+  @media (min-width: 320px) and (max-width: 920px) {
+    padding: 1em;
+  }
 }
 
 .inputForm {
@@ -48,11 +53,15 @@ export default {};
     color: white;
     font-size: 1.2rem;
     text-align: left;
+
+    @media (min-width: 320px) and (max-width: 920px) {
+      font-size: 1rem;
+    }
   }
 
   input,
   textarea {
-    padding: 1.5rem;
+    padding: 1rem;
     background-color: #4389b8;
     border-radius: 15px 5px 5px 15px;
     transition: 0.5s ease-out;

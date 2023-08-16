@@ -8,9 +8,9 @@
       <div>
         <h4 class="mb-3">Quem sou?</h4>
         <p>
-          Sou <b>Desenvolvedor Front End</b> com 2 anos de experiência com
-          foco em <b>webdesign</b>, onde aplico todo meu conhecimento para
-          extrair o melhor do produto que estou desenvolvendo. <br> 
+          Sou <b>Desenvolvedor Front End</b> com 2 anos de experiência com foco
+          em <b>webdesign</b>, onde aplico todo meu conhecimento para extrair o
+          melhor do produto que estou desenvolvendo. <br />
           Confira na seção de <b>Projetos</b> mais detalhes.
         </p>
 
@@ -68,10 +68,10 @@ export default {
     font-size: 1.1rem;
     padding: 1em;
 
-      @media (min-width: 320px) and (max-width: 768px) {
-        font-size: 1rem;
-        line-height: 1.5rem;
-        text-align: center;
+    @media (min-width: 320px) and (max-width: 768px) {
+      font-size: 1rem;
+      line-height: 1.5rem;
+      text-align: center;
     }
   }
 }
