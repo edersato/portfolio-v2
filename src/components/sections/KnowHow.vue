@@ -3,49 +3,115 @@
     <div>
       <h4>Conhecimentos</h4>
       <div class="skills">
-        <p>HTML</p>
-        <p>CSS</p>
-        <p>Javascript</p>
-        <p>VueJs</p>
-        <p>ReactJs</p>
-        <p>Angular</p>
-        <p>C#</p>
-        <p>.NET</p>
-        <p>SQL</p>
-        <p>Git</p>
-        <p>Photoshop</p>
-        <p>Illustrator</p>
-        <p>InDesign</p>
-        <p>Premiere</p>
+        <p>
+          <font-awesome-icon icon="fa-brands fa-html5" />
+          <span>Html</span>
+        </p>
+        <p>
+          <font-awesome-icon icon="fa-brands fa-css3-alt" />
+          <span>CSS</span>
+        </p>
+        <p>
+          <font-awesome-icon icon="fa-brands fa-square-js" />
+          <span>Javascript</span>
+        </p>
+        <p>
+          <font-awesome-icon icon="fa-brands fa-vuejs" />
+          <span>VueJs</span>
+        </p>
+        <p>
+          <font-awesome-icon icon="fa-brands fa-react" />
+          <span>ReactJs</span>
+        </p>
+        <p>
+          <font-awesome-icon icon="fa-brands fa-angular" />
+          <span>AngularJs</span>
+        </p>
+        <p>
+          <font-awesome-icon icon="fa-brands fa-php" />
+          <span>PhP</span>
+        </p>
+        <p>
+          <font-awesome-icon icon="fa-brands fa-python" />
+          <span>Pyhton</span>
+        </p>
+        <p>
+          <i class="devicon-csharp-line-wordmark"></i>
+          <span>C#</span>
+        </p>
+        <p>
+          <i class="devicon-dotnetcore-plain"></i>
+          <span>.NET Core</span>
+        </p>
+        <p>
+          <i class="devicon-microsoftsqlserver-plain-wordmark"></i>
+          <span>SQL Server</span>
+        </p>
+        <p>
+          <font-awesome-icon icon="fa-brands fa-github" />
+          <span>GitHub</span>
+        </p>
+        <p>
+          <font-awesome-icon icon="fa-brands fa-figma" />
+          <span>Figma</span>
+        </p>
+        <p>
+          <i class="devicon-photoshop-line"></i>
+          <span>Photoshop</span>
+        </p>
+        <p>
+          <i class="devicon-illustrator-line"></i>
+          <span>Illustrator</span>
+        </p>
       </div>
     </div>
-
   </section>
 </template>
 
 <style lang="scss" scoped>
-
 .skills {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: right;
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
 
-    @media (min-width: 320px) and (max-width: 768px) {
-      justify-content: center;
-    }
+  @media (min-width: 320px) and (max-width: 700px) {
+    grid-template-columns: repeat(2, 50%);
+  }
 
   p {
-    padding: .2rem 1rem;
+    font-size: 3em;
+    padding: 1rem;
     margin: 0.8rem;
-    background: #5ebcfa;
-    border-radius: 1.8rem;
-    color: black;
-    font-weight: 400;
+    color: #5ebcfa;
 
-    &:hover {
-      font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @media(min-width: 320px) and (max-width: 400px) {
+      font-size: 4em;
+    }
+
+    span {
+      font-size: 0.3em;
+      padding: 1rem;
+      
+      &:hover {
+        font-weight: 500;
+      }
+
+      @media(min-width: 320px) and (max-width: 400px) {
+        font-size: 0.2em;
+      }
+    }
+  }
+
+  i {
+    color: #5ebcfa;
+    font-size: 1.3em;
+
+    @media(min-width: 320px) and (max-width: 400px) {
+      font-size: 1em;
     }
   }
 }
-
 </style>
