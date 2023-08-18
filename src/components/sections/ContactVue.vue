@@ -1,6 +1,7 @@
 <template>
   <div id="contact">
     <h1 class="mb-5">Contato</h1>
+    <h4>Entre em contato para mais informações</h4>
 
     <div class="inputForm">
       <label for="">Nome</label>
@@ -24,17 +25,21 @@
     </div>
 
     <div class="btnArea">
+      <div>
+        <a target="_blank" href="http://wa.me/5541999783988">
+          <font-awesome-icon icon="fa-brands fa-whatsapp-square" />
+        </a>
+
+        <a target="_blank" href="mailto:edersato@gmail.com">
+          <font-awesome-icon icon="fa-solid fa-envelope" />
+        </a>
+      </div>
       <button type="submit" class="btn">Enviar</button>
     </div>
   </div>
 </template>
 
-<script>
-export default {};
-</script>
-
 <style lang="scss" scoped>
-
 #contact {
   padding: 3em;
 
@@ -84,7 +89,7 @@ export default {};
 .btnArea {
   display: flex;
   margin: 0 3em;
-  justify-content: right;
+  justify-content: space-between;
 
   button {
     padding: 0.5rem 2rem;
@@ -96,6 +101,18 @@ export default {};
       background-color: #2e688f;
       color: white;
       transition: 1s;
+    }
+  }
+
+  a {
+    color: #5ebcfa;
+    padding: 1rem;
+    font-size: 3em;
+    transition: 1s ease-out;
+
+    &:hover {
+      color: white;
+      transition: 1s ease-in;
     }
   }
 }

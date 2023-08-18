@@ -4,29 +4,30 @@
     
     <div>
       <h4>Olá, eu sou</h4>
-      <h1>Eder Sato</h1>
-      <h3>Desenvolvedor Front End</h3>
-      <div class="icons">
-        <a target="_blank" href="https://github.com/edersato/">
-          <font-awesome-icon icon="fa-brands fa-github" />
-        </a>
-
-        <a target="_blank" href="https://www.linkedin.com/in/eder-da-rosa-sato/">
-          <font-awesome-icon icon="fa-brands fa-linkedin" />
-        </a>
-
-        <a target="_blank" href="mailto:edersato@gmail.com">
-          <font-awesome-icon icon="fa-solid fa-envelope" />
-        </a>
-
-          <a target="_blank" href="https://dev.to/edersato">
-            <font-awesome-icon icon="fa-solid fa-laptop-code" />
-          </a>
-      </div>
-      <button href="#about" type="button" class="btn btn-lg mt-4">Saiba Mais</button>
+      <h1>{{name}}</h1>
+      <h3> {{position}} </h3>
+      <PresentationLinks />
+      <button type="submit" class="btn btn-lg mt-4">Saiba Mais</button>
     </div>
   </section>
 </template>
+
+<script>
+import PresentationLinks from '../shared/PresentationLinks.vue'
+
+export default {
+  components: {
+    PresentationLinks,
+  },
+
+  data() {
+    return {
+      name: "Eder Sato",
+      position: 'Desenvolvedor Front End',
+    }
+  },
+}
+</script>
 
 <style lang="scss" scoped>
 section {
@@ -69,10 +70,11 @@ section {
     border-right: .15em solid #4591c4;
     animation: 2s typing steps(20, end) alternate infinite;
     overflow: hidden;
+    text-align: right;
 
     @keyframes typing {
       from { width: 0 }
-      to { width: 95% }
+      to { width: 98% }
     }
 
     @media (min-width: 320px) and (max-width: 375px) {
@@ -82,6 +84,7 @@ section {
     }
     
     @media (min-width: 376px) and (max-width: 768px) {
+      padding: 0 1em;
       text-align: center;
     }
   }
@@ -99,10 +102,10 @@ section {
     background-color: #4591c4;
     border: #4591c4;
     width: 100%;
+    transition: 1s;
 
     &:hover {
-      background-color: #2e688f;
-      color: white;
+      background-color: white;
       transition: 1s;
     }
 
