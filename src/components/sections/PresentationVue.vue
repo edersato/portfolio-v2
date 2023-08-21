@@ -7,7 +7,7 @@
       <h1>{{name}}</h1>
       <h3> {{position}} </h3>
       <PresentationLinks />
-      <button type="submit" class="btn btn-lg mt-4">Saiba Mais</button>
+      <a class="btnPresentation" href="#about">Saiba Mais</a>
     </div>
   </section>
 </template>
@@ -98,19 +98,25 @@ section {
     }
   }
 
-  button {
+  .btnPresentation {
     background-color: #4591c4;
-    border: #4591c4;
-    width: 100%;
+    border: 1px solid #4591c4;
+    color: black;
+
+    padding: 1rem 8rem;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    text-decoration: none;
     transition: 1s;
 
     &:hover {
       background-color: white;
+      border-color: white;
       transition: 1s;
     }
 
-    @media (min-width: 320px) and (max-width: 768px) {
-      width: 70%;
+    @media (min-width: 320px) and (max-width: 548.58px) {
+      padding: 0.8rem;
     }
   }
 }
