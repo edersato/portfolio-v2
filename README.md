@@ -1,6 +1,6 @@
-#Portólio
+# Portólio
 
-Portfólio de projetos e habilidades profissionais.
+Portfólio de projetos e habilidades profissionais. Sinta-se a vontade para analisar e saber mais da minha carreira
 
 
 ## Running Locally

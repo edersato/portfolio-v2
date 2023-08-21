@@ -16,12 +16,12 @@
         <font-awesome-icon icon="fa-solid fa-laptop-code" />
       </a>
     </div>
-    <button type="submit" class="btn btn-lg mt-4">Saiba Mais</button>
 </template>
 
 <style lang="scss" scoped>
 .icons {
   padding-top: 2em;
+  padding-bottom: 2em;
   font-size: 1.5em;
 
   @media (min-width: 320px) and (max-width: 768px) {
