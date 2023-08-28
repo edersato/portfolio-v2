@@ -39,6 +39,17 @@
           <a class="btn btnDetails" href="https://editor.p5js.org/Eder_Sato/full/SYVpVFLIz" target="_blank">{{details}}</a>
         </div>
       </div>
+      
+      <div class="projectDiv">
+        <img src="../../assets/projectsImg/wordguess.png" alt="" />
+        <div class="explanation">
+          <h4 class="mb-4">Jogo Web - Word Guesser</h4>
+          <h6 class="mb-5">
+            Jogo de adivinhar palavras realizado como primeiro projeto do curso de React da <b>"Hora de Codar"</b>
+          </h6>
+          <a class="btn btnDetails" href="https://aprendendo-react-theta.vercel.app/" target="_blank">{{details}}</a>
+        </div>
+      </div>
     </section>
   </div>
 </template>
