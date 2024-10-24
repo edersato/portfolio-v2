@@ -1,28 +1,6 @@
 <template>
   <div id="contact">
     <h1 class="mb-5">Contato</h1>
-    <!-- <h4>Entre em contato para mais informações</h4> -->
-
-    <!-- <div class="inputForm">
-      <label for="">Nome</label>
-      <input type="text" placeholder="Seu Nome" />
-    </div>
-
-    <div class="inputForm">
-      <label for="">Email</label>
-      <input type="email" placeholder="Seu Email" />
-    </div>
-
-    <div class="inputForm">
-      <label for="">Mensagem</label>
-      <textarea
-        name=""
-        id=""
-        placeholder="Escreva sua mensagem.."
-        cols="25"
-        rows="8"
-      ></textarea>
-    </div> -->
 
     <div class="btnArea">
       <div>
@@ -90,20 +68,6 @@
   display: flex;
   margin: 0 3em;
   justify-content: space-around;
-
-  // button {
-  //   padding: 0.5rem 2rem;
-  //   font-size: 1.2em;
-  //   font-weight: 400;
-  //   background-color: #4389b8;
-
-  //   &:hover {
-  //     background-color: #2e688f;
-  //     color: white;
-  //     transition: 1s;
-  //   }
-  // }
-
   a {
     color: #5ebcfa;
     padding: 1rem;

@@ -8,14 +8,14 @@
       <div>
         <h4 class="mb-3">Quem sou?</h4>
         <p>
-          Sou <b>Desenvolvedor Front End</b> com 2 anos de experiência com foco
+          Sou <b>Desenvolvedor Fullstack</b> com 3 anos de experiência com foco
           em <b>webdesign</b>, onde aplico todo meu conhecimento para extrair o
           melhor do produto que estou desenvolvendo. <br />
           Confira na seção de <b>Projetos</b> mais detalhes.
         </p>
 
         <p>
-          Atualmente, estou finalizando a graduação em
+          Sou formado em
           <b>Análise e Desenvolvimento de Sistemas</b> pela Estácio.
         </p>
 
