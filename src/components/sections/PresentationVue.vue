@@ -5,7 +5,7 @@
     <div>
       <h4>Olá, eu sou</h4>
       <h1>{{name}}</h1>
-      <h3> {{position}} </h3>
+      <h3 :class="{ typing: true }">{{ currentPosition }}</h3>
       <PresentationLinks />
       <a class="btnPresentation" href="#about">Saiba Mais</a>
     </div>
@@ -23,9 +23,28 @@ export default {
   data() {
     return {
       name: "Eder Sato",
-      position: 'Desenvolvedor Front End',
+      positions: ['Desenvolvedor FullStack    ', '          UX/UI Designer         '],
+      currentPositionIndex: 0,
     }
   },
+
+  computed: {
+    currentPosition() {
+      return this.positions[this.currentPositionIndex];
+    }
+  },
+
+  mounted() {
+    this.startAlternatingPositions();
+  },
+
+  methods: {
+    startAlternatingPositions() {
+      setInterval(() => {
+        this.currentPositionIndex = (this.currentPositionIndex + 1) % this.positions.length;
+      }, 4000); 
+    }
+  }
 }
 </script>
 
@@ -68,13 +87,13 @@ section {
     color: white;
     white-space: nowrap;
     border-right: .15em solid #4591c4;
-    animation: 2s typing steps(20, end) alternate infinite;
+    animation: 2s typing steps(25, end) alternate infinite;
     overflow: hidden;
     text-align: right;
 
     @keyframes typing {
       from { width: 0 }
-      to { width: 98% }
+      to { width: 102% }
     }
 
     @media (min-width: 320px) and (max-width: 375px) {

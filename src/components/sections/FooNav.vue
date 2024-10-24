@@ -3,7 +3,7 @@
     <div class="footerArea">
       <div>
         <h5>Eder da Rosa Sato</h5>
-        <h6>Desenvolvedor Front End</h6>
+        <h6>Desenvolvedor Fullstack</h6>
         <hr>
       </div>
       <div class="iconArea">
