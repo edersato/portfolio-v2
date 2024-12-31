@@ -28,14 +28,6 @@
           <span>AngularJs</span>
         </p>
         <p>
-          <font-awesome-icon icon="fa-brands fa-php" />
-          <span>PhP</span>
-        </p>
-        <p>
-          <font-awesome-icon icon="fa-brands fa-python" />
-          <span>Pyhton</span>
-        </p>
-        <p>
           <i class="devicon-csharp-line-wordmark"></i>
           <span>C#</span>
         </p>
@@ -46,6 +38,10 @@
         <p>
           <i class="devicon-microsoftsqlserver-plain-wordmark"></i>
           <span>SQL Server</span>
+        </p>
+        <p>
+          <i class="devicon-nodejs-plain"></i> 
+            <span>NodeJs</span>
         </p>
         <p>
           <font-awesome-icon icon="fa-brands fa-github" />
