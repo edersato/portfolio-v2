@@ -52,7 +52,7 @@ export default {
 <style lang="scss" scoped>
 .aboutSection {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-column-gap: 3em;
   margin: 0 5em;
 
