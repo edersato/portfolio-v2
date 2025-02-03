@@ -14,7 +14,7 @@
             Aplicação de clima construida em Vue consumindo a API da
             OpenWeatherAPI
           </h6>
-          <a class="btn btnDetails" href="https://vue-weather-ten.vercel.app/" target="_blank">{{details}}</a>
+          <a class="btn btnDetails" href="https://vue-weather-apply.vercel.app/" target="_blank">{{details}}</a>
         </div>
       </div>
 

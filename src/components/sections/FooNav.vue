@@ -20,10 +20,6 @@
           <a target="_blank" href="https://dev.to/edersato">
             <font-awesome-icon icon="fa-solid fa-laptop-code" />
           </a>
-
-          <a target="_blank" href="https://www.instagram.com/edersato_/">
-            <font-awesome-icon icon="fa-brands fa-instagram" />
-          </a>
         </div>
       </div>
     </div>
