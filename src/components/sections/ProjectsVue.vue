@@ -7,6 +7,16 @@
     </h4>
     <section class="projectArea">
       <div class="projectDiv">
+        <img src="../../assets/projectsImg/radio_browser.png" alt="" />
+        <div class="explanation">
+          <h4 class="mb-4">Radio Browser</h4>
+          <h6 class="mb-5">
+            Aplicação de rádios funcional com player, consumindo uma API de rádios global
+          </h6>
+          <a class="btn btnDetails" href="https://radio-browservue.vercel.app/" target="_blank">{{details}}</a>
+        </div>
+      </div>
+      <div class="projectDiv">
         <img src="../../assets/projectsImg/climapp.png" alt="" />
         <div class="explanation">
           <h4 class="mb-4">Weather App</h4>
