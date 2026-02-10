@@ -14,6 +14,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import './assets/styles/mixins.scss';
+
 html {
   background: #242122;
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -23,6 +25,8 @@ html {
   background: #242122;
   text-align: center;
 }
+
+@include heading();
 
 /* Firefox */
 * {
