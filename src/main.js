@@ -39,6 +39,9 @@ library.add(
   faWhatsappSquare
 )
 
+// Importar Bootstrap CSS
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 const app = createApp(App)
 app.component('font-awesome-icon', FontAwesomeIcon)
 app.mount('#app')

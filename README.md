@@ -1,36 +1,5 @@
-# Portólio
+# Vue 3 + Vite
 
-Portfólio de projetos e habilidades profissionais. Sinta-se a vontade para analisar e saber mais da minha carreira
+This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-
-## Running Locally
-
-```
-yarn install
-```
-
-#### Compile and hot-reload for development
-
-```
-yarn serve
-```
-
-#### Compile and minify for production
-
-```
-yarn build
-```
-
-#### Lint and fix files
-
-```
-yarn lint
-```
-
-## Deploy Your Own
-
-Deploy your own Vue.js project with Vercel.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/vue&template=vue)
-
-_Live Example: https://vue-template.vercel.app_
+Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).

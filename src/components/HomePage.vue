@@ -34,13 +34,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss">
-@mixin heading {
-  h1, h2, h3, h4, h5, h6 {
-    color: #5ebcfa;
-  }
-}
-
-@include heading()
-</style>
