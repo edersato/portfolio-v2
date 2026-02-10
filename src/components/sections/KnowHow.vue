@@ -51,14 +51,6 @@
           <font-awesome-icon icon="fa-brands fa-figma" />
           <span>Figma</span>
         </p>
-        <p>
-          <i class="devicon-photoshop-line"></i>
-          <span>Photoshop</span>
-        </p>
-        <p>
-          <i class="devicon-illustrator-line"></i>
-          <span>Illustrator</span>
-        </p>
       </div>
     </div>
   </section>
