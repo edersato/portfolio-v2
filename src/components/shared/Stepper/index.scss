@@ -54,7 +54,7 @@ $border-radius-default: 4px;
       left: 0;
       right: 0;
       height: $size-progress-bar-height;
-      background-color: $color-border;
+      background-color: $color-primary;
       z-index: 1;
     }
 
@@ -147,5 +147,9 @@ $border-radius-default: 4px;
       border-top: $size-tooltip-arrow solid $color-dark;
       @include smooth-transition;
     }
+  }
+
+  .modal-title {
+    color: #212221
   }
 }

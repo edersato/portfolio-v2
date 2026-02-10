@@ -9,8 +9,8 @@
           </div>
           <div class="modal-body">
             <div v-if="selectedStep">
-              <h5>{{ selectedStep.tooltip }}</h5>
-              <h6>Período: {{ selectedStep.period }}</h6>
+              <h5 class="modal-title">{{ selectedStep.title }}</h5>
+              <h6 class="modal-title">Período: {{ selectedStep.period }}</h6>
               <p>{{ selectedStep.description }}</p>
               <ul v-if="selectedStep.activities" class="list-group">
                 <li v-for="(activity, index) in selectedStep.activities" :key="index" class="list-group-item">
@@ -101,7 +101,7 @@ export default {
       return `${progress}%`
     },
     modalTitle() {
-      return this.selectedStep ? this.selectedStep.title : 'Detalhes'
+      return this.selectedStep ? this.selectedStep.tooltip : 'Detalhes'
     }
   },
   watch: {
