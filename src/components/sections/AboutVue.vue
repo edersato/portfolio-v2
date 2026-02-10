@@ -8,21 +8,14 @@
       <div>
         <h4 class="mb-3">Quem sou?</h4>
         <p>
-          Sou <b>Desenvolvedor Fullstack</b> com 3 anos de experiência com foco
-          em <b>webdesign</b>, onde aplico todo meu conhecimento para extrair o
-          melhor do produto que estou desenvolvendo. <br />
-          Confira na seção de <b>Projetos</b> mais detalhes.
+          Desenvolvedor Full Stack com 3 anos de experiência em desenvolvimento de sites e aplicações web. <br />
+          <br /> Formado em Análise e Desenvolvimento de Sistemas, possui sólida competência em tecnologias front-end (<b>Vue.js, React, Vuetify</b>) e back-end (<b>Node.js, C#, .NET</b>). <br /> 
+          <br /> Experiência prática com bancos de dados relacionais (<b>PostgreSQL, MySQL</b>) e NoSQL (<b>MongoDB</b>), além de conhecimentos em infraestrutura de redes e metodologias ágeis (<b>Scrum, Kanban</b>). <br />
         </p>
 
         <p>
-          Sou formado em
-          <b>Análise e Desenvolvimento de Sistemas</b> pela Estácio.
-        </p>
-
-        <p>
-          Além dos conhecimentos de programação, tenho habilidades e experiência
-          em <b>ferramentas de edição</b> de imagem e vídeo, derivado de anos de
-          trabalho em agência de <b>Publicidade e Marketing</b>.
+          Com um histórico profissional que inclui posições como Designer Gráfico/UI e Desenvolvedor Full Stack, tem se destacado por sua capacidade de adaptação e aprendizado contínuo. <br />
+          <br /> Atualmente, busca novas oportunidades para aplicar seus conhecimentos, contribuir para projetos desafiadores e continuar evoluindo como profissional de tecnologia.
         </p>
 
         <p>
