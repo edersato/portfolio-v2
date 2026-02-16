@@ -4,13 +4,13 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">{{ modalTitle }}</h5>
+            <h5 class="modal-title-show">{{ modalTitle }}</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
             <div v-if="selectedStep">
-              <h5 class="modal-title">{{ selectedStep.title }}</h5>
-              <h6 class="modal-title">Período: {{ selectedStep.period }}</h6>
+              <h5 class="modal-title-show">{{ selectedStep.title }}</h5>
+              <h6 class="modal-title-period">Período: {{ selectedStep.period }}</h6>
               <p>{{ selectedStep.description }}</p>
               <ul v-if="selectedStep.activities" class="list-group">
                 <li v-for="(activity, index) in selectedStep.activities" :key="index" class="list-group-item">

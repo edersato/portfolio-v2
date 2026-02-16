@@ -24,7 +24,7 @@ export default {
       professionalSteps: [
         {
           id: 1,
-          label: 'Jul 2019 – Abr 2021',
+          label: 'Masterview (2019-2021)',
           title: 'Designer Gráfico / UI',
           tooltip: 'MasterView Soluções e Serviços em Tecnologia',
           period: 'Julho 2019 – Abril 2021',
@@ -37,7 +37,7 @@ export default {
         },
         {
           id: 2,
-          label: 'Mai 2021 – Jul 2023',
+          label: 'MTW (2021-2023)',
           title: 'Desenvolvedor Full Stack Júnior',
           tooltip: 'MTW Soluções e Serviços em Tecnologia',
           period: 'Maio 2021 – Julho 2023',
@@ -50,7 +50,7 @@ export default {
         },
         {
           id: 3,
-          label: 'Out 2023 – Fev 2025',
+          label: 'Castilho Engenharia (2023-2025)',
           title: 'Desenvolvedor de Sistemas',
           tooltip: 'Castilho Engenharia e Empreendimentos S/A',
           period: 'Outubro 2023 – Fevereiro 2025',
@@ -63,7 +63,7 @@ export default {
         },
         {
           id: 4,
-          label: 'Mar 2025 – Atual',
+          label: 'Explicaê (2025 – Atual)',
           title: 'Desenvolvedor de Software',
           tooltip: 'Explicaê',
           period: 'Março 2025 – Presente',

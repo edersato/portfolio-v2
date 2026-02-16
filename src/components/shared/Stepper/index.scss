@@ -1,7 +1,8 @@
 // ============================================
 // Variables
 // ============================================
-$color-primary: #5ebcfa;
+$color-primary: #55b0ec;
+$color-secondary: #4188b8;
 $color-success: #198754;
 $color-border: #dee2e6;
 $color-text-secondary: #6c757d;
@@ -149,7 +150,12 @@ $border-radius-default: 4px;
     }
   }
 
-  .modal-title {
-    color: #212221
-  }
+}
+
+.modal-title-show {
+  color: $color-dark !important;
+}
+
+.modal-title-period {
+  color: $color-secondary !important;
 }
