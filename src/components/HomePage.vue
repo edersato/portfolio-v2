@@ -8,7 +8,6 @@
       <AboutVue />
       <HistoryVue />
       <ProjectsVue />
-      <ContactVue />
     </main>
     <footer>
       <FooNav />
@@ -22,7 +21,6 @@ import PresentationVue from './sections/PresentationVue.vue'
 import AboutVue from './sections/AboutVue.vue'
 import HistoryVue from './sections/HistoryVue.vue'
 import ProjectsVue from './sections/ProjectsVue.vue'
-import ContactVue from './sections/ContactVue.vue'
 import FooNav from './sections/FooNav.vue'
 
 
@@ -30,7 +28,7 @@ import FooNav from './sections/FooNav.vue'
 export default {
   name: 'HomePage',
   components: {
-    HeadNav ,PresentationVue, AboutVue, HistoryVue, ProjectsVue, ContactVue, FooNav
+    HeadNav ,PresentationVue, AboutVue, HistoryVue, ProjectsVue, FooNav
   }
 }
 </script>

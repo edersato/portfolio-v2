@@ -2,9 +2,7 @@
   <div id="footer" class="bg-dark">
     <div class="footerArea">
       <div>
-        <h5>Eder da Rosa Sato</h5>
-        <h6>Desenvolvedor Fullstack</h6>
-        <hr>
+        <ContactVue />
       </div>
       <div class="iconArea">
         <h5>Me encontre também no</h5>
@@ -27,8 +25,11 @@
 </template>
 
 <script>
+import ContactVue from './ContactVue.vue';
 export default {
-
+  components: {
+    ContactVue,
+  }
 }
 </script>
 
