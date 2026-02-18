@@ -150,6 +150,17 @@ $border-radius-default: 4px;
     }
   }
 
+  .step-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: $color-white;
+    max-width: $size-step-indicator;
+    max-height: $size-step-indicator;
+  }
+
 }
 
 .modal-title-show {

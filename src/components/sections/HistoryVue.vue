@@ -12,6 +12,9 @@
 
 <script>
 import StepsComponent from '../shared/Stepper/index.vue'
+import mtwLogo from '@/assets/companies/mtw.png'
+import castilhoLogo from '@/assets/companies/castilho.png'
+import explicaeLogo from '@/assets/companies/explicae.png'
 
 export default {
   name: 'App',
@@ -33,7 +36,8 @@ export default {
             'Criação e renovação de identidade visual de materiais institucionais',
             'Apoio ao desenvolvimento de sistemas com foco em UX/UI',
             'Organização visual e usabilidade de interfaces'
-          ]
+          ],
+          logo: mtwLogo
         },
         {
           id: 2,
@@ -46,7 +50,8 @@ export default {
             'Desenvolvimento front-end com Vue.js e React',
             'Integração com APIs e manutenção de soluções .NET',
             'Suporte a integradores e testes de estabilidade'
-          ]
+          ],
+          logo: mtwLogo
         },
         {
           id: 3,
@@ -59,7 +64,8 @@ export default {
             'Otimização e automação de processos corporativos',
             'Manutenção e evolução de sistemas C#, .NET e SQL',
             'Suporte técnico interno e melhorias de performance'
-          ]
+          ],
+          logo: castilhoLogo
         },
         {
           id: 4,
@@ -72,7 +78,8 @@ export default {
             'Desenvolvimento e manutenção de aplicações Vue.js/Vuetify',
             'Evolução de componentes e implementação de funcionalidades',
             'Testes de usabilidade e garantia de qualidade do código'
-          ]
+          ],
+          logo: explicaeLogo
         }
       ]
     }

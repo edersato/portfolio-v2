@@ -46,7 +46,13 @@
             @mouseenter="showTooltip(index, $event)"
             @mouseleave="hideTooltip"
           >
-            <span class="step-number">{{ index + 1 }}</span>
+            <img 
+              v-if="step.logo" 
+              :src="step.logo" 
+              :alt="step.tooltip || `Empresa ${index + 1}`"
+              class="step-logo"
+            />
+            <span v-else class="step-number">{{ index + 1 }}</span>
           </div>
 
           <div class="step-label">
