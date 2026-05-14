@@ -3,7 +3,14 @@ import App from './App.vue'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faEnvelope, faLaptopCode } from '@fortawesome/free-solid-svg-icons'
+import { 
+  faEnvelope, 
+  faLaptopCode, 
+  faArrowUpRightFromSquare, 
+  faDownload, 
+  faArrowDown, 
+  faXmark 
+} from '@fortawesome/free-solid-svg-icons'
 import { 
   faGithub, 
   faLinkedin, 
@@ -17,6 +24,7 @@ import {
   faPhp, 
   faPython, 
   faFigma, 
+  faWhatsapp,
   faWhatsappSquare 
 } from '@fortawesome/free-brands-svg-icons'
 
@@ -24,6 +32,10 @@ import {
 library.add(
   faEnvelope,
   faLaptopCode,
+  faArrowUpRightFromSquare,
+  faDownload,
+  faArrowDown,
+  faXmark,
   faGithub,
   faLinkedin,
   faInstagram,
@@ -36,6 +48,7 @@ library.add(
   faPhp,
   faPython,
   faFigma,
+  faWhatsapp,
   faWhatsappSquare
 )
 
