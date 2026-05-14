@@ -1,12 +1,8 @@
 <template>
   <div id="history">
     <h1 class="mt-5">Histórico Profissional</h1>
-    
-    <StepsComponent 
-      :steps="professionalSteps"
-      :active-step="activeStep"
-      @step-click="onStepClick"
-    />
+
+    <StepsComponent :steps="professionalSteps" :active-step="activeStep" @step-click="onStepClick" />
   </div>
 </template>
 
@@ -78,6 +74,20 @@ export default {
             'Desenvolvimento e manutenção de aplicações Vue.js/Vuetify',
             'Evolução de componentes e implementação de funcionalidades',
             'Testes de usabilidade e garantia de qualidade do código'
+          ],
+          logo: explicaeLogo
+        },
+        {
+          id: 5,
+          label: 'Explicaê (Atual)',
+          title: 'QA Engineer',
+          tooltip: 'Explicaê',
+          period: 'Fevereiro 2026 – Presente',
+          description: 'Garantia de qualidade de software com foco em testes funcionais, de integração e performance, utilizando metodologias ágeis e ferramentas modernas de automação e acompanhamento de bugs.',
+          activities: [
+            'Criação e execução de planos de teste funcionais',
+            'Colaboração com desenvolvedores para garantir a qualidade do código',
+            'Experiência com testes de performance, usabilidade, integração, regressão e aceitação, garantindo estabilidade, qualidade e conformidade das aplicações. Atuação na validação de funcionalidades, comunicação entre sistemas e experiência do usuário durante o ciclo de desenvolvimento.'
           ],
           logo: explicaeLogo
         }
