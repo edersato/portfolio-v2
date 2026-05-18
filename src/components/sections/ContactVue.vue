@@ -72,7 +72,7 @@
 
             </div>
 
-            <a class="cv-download" href="/cv.pdf" download="Eder_Sato_CV.pdf">
+            <a class="cv-download" href="/cv.pdf" download="Curriculo_Eder_da_Rosa_Sato.pdf">
               <font-awesome-icon icon="fa-solid fa-download" />
               Baixar CV em PDF
             </a>

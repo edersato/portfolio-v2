@@ -2,7 +2,7 @@
   <footer id="footer">
     <div class="footer-inner">
 
-      <p class="footer-brand">Eder<span>Sato</span></p>
+      <p class="footer-brand">Eder da Rosa <span>Sato</span></p>
 
       <p class="footer-copy">
         © {{ currentYear }} — Feito com Vue.js

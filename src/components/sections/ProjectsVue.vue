@@ -46,7 +46,7 @@
           </button>
 
           <div class="modal-image">
-            <img :src="selectedProject.image" :alt="selectedProject.name" />
+            <img :src="selectedProject.modalImage || selectedProject.image" :alt="selectedProject.name" />
           </div>
 
           <div class="modal-content">
